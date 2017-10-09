@@ -3,8 +3,8 @@ title:       Pixyll
 email:       your_email@example.com
 author:      John Otander
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     "/blog"
-url:         "https://anshuman23.github.io"
+baseurl:     ""
+url:         "https://anshuman23.github.io/blog"
 date_format: "%b %-d, %Y"
 
 # Google analytics
