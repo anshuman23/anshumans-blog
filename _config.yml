@@ -1,8 +1,8 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Anshuman Chhabra's Blog
+email:       anshuman.lalakers@gmail.com
+author:      Anshuman Chhabra
+description: "Articles on networks, machine learning and computer science in general, straight from the heart."
 baseurl:     ""
 url:         "http://anshuman.ml"
 date_format: "%b %-d, %Y"
