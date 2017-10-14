@@ -18,25 +18,23 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Here's an example of some ruby code with line anchors.
 
-{% highlight ruby lineanchors %}
+{% highlight python lineanchors %}
 # The most awesome of classes
-class Awesome < ActiveRecord::Base
-  include EvenMoreAwesome
-
-  validates_presence_of :something
-  validates :email, email_format: true
-
-  def initialize(email, name = nil)
-    self.email = email
-    self.name = name
-    self.favorite_number = 12
-    puts 'created awesomeness'
-  end
-
-  def email_format
-    email =~ /\S+@\S+\.\S+/
-  end
-end
+import seaborn as sbn                                                           
+from numpy import fft                                                           
+                                                                                
+                                                                                
+def fourierExtrapolation(x, n_predict):                                         
+    n = x.size                                                                  
+    n_harm = 5                     # number of harmonics in model               
+    t = np.arange(0, n)                                                         
+    p = np.polyfit(t, x, 1)         # find linear trend in x                    
+    x_notrend = x - p[0] * t        # detrended x                               
+    x_freqdom = fft.fft(x_notrend)  # detrended x in frequency domain           
+    f = fft.fftfreq(n)              # frequencies                               
+    indexes = list(range(n))                                                    
+    # sort indexes by frequency, lower -> higher                                
+    indexes.sort(key = lambda i: np.absolute(f[i]))
 {% endhighlight %}
 
 Here's some CSS:
