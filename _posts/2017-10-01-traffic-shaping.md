@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      A Gentle Introduction to Traffic Shaping on the Linux Networking Stack
+title:      An expedient introduction to Mininet
 date:       2017-10-15 00:00:00
-summary:    An expedient and yet informative introduction to advanced routing and network traffic shaping 
-categories: kernel systems networking linux
+summary:    Building an example network with Mininet to lay the foundations for future use as an SDN research testbed/emulator  
+categories: networks
 ---
