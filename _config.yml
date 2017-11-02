@@ -5,7 +5,7 @@ altemail:    anshuman.lalakers@gmail.com
 author:      Anshuman Chhabra
 description: "Articles on networks, machine learning and computer science in general, straight from the heart."
 baseurl:     ""
-url:         "http://anshuman.ml"
+url:         "http://anshumanc.ml"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
